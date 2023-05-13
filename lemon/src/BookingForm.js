@@ -1,5 +1,14 @@
+import { useState } from "react";
+import "./BookingForm.css"
+
+
 function BookingForm() {
+
+    const [date,setDate]=useState("")
+    const [number,setNumber]=useState(1)
+    const [occasion,setOccasion]=useState("")
     return (
+        <div className="book">
         <form >
             <label htmlFor="res-date">Choose date</label>
             <input type="date" id="res-date"></input>
@@ -19,8 +28,9 @@ function BookingForm() {
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            <input type="submit" value="Make Your reservation"></input>
+            <input className="submit" type="submit" value="Make Your reservation"></input>
         </form>
+        </div>
     );
 }
 

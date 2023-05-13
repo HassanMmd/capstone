@@ -14,7 +14,7 @@ function Hero () {
         <div className="desc">focuced on traditional</div>
         <div className="desc"> recipes served with a modern</div>
         <div className="desc">twist.</div>
-        <button className="reserve">Reserve a Table</button>
+        <a className="reserve" href="/booking">Reserve a Table</a>
     </article>
     <div>
     <article className="title-img">

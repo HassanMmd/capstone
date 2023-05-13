@@ -1,0 +1,24 @@
+.submit {
+    background-color: #f4CE14;
+    font-family: Karla-medium;
+    font-size: 18pt;
+    color: black;
+    border: 1px solid #877418;
+    border-radius: 10%;
+}
+
+.book {
+    gap: 20px;
+    padding: 50px;
+}
+
+label{
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+}
+select {
+    margin: 10px;
+}
