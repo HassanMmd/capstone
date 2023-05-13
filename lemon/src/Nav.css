@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Markazi-medim';
+    src: url(./assets/fonts/static/MarkaziText-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Markazi-regular';
+    src: url(./assets/fonts/static/MarkaziText-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Markazi-Bold';
+    src: url(./assets/fonts/static/MarkaziText-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Markazi-semiBold';
+    src: url(./assets/fonts/static/MarkaziText-SemiBold.ttf) format('truetype');
+}
+
+.navbar{
+    list-style: none;
+}
+
+.nav-item{
+    display: inline-block;
+    font-family: Markazi-regular;
+    font-size: 40pt;
+    margin: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}

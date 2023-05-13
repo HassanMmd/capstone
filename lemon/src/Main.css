@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Karla-medium';
+    src: url(./assets/fonts/Karla/Karla-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Karla-regular';
+    src: url(./assets/fonts/Karla/Karla-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Karla-Bold';
+    src: url(./assets/fonts/Karla/Karla-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Karla-extraBold';
+    src: url(./assets/fonts/Karla/Karla-ExtraBold.ttf) format('truetype');
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-sec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.services{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFEE;
+}
+
+.services>img {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 300px;
+    height: 200px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.title-this{
+    font-family: Karla-extraBold;
+    font-size: 26pt;
+}
+
+.order-online{
+    background-color: #f4CE14;
+    font-family: Karla-medium;
+    font-size: 18pt;
+    color: black;
+    border: 1px solid #f4CE14;
+    border-radius: 10%;
+}
+.card-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-price {
+    font-family: Karla-medium;
+    color: #EE9972;
+}
+
+.title1 {
+    font-family: Karla-medium;
+}
+
+.descriotion{
+    font-family: Karla-regular;
+    font-size: 14pt;
+}
+
+.desc-card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}

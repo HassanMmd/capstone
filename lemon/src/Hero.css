@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Markazi-medim';
+    src: url(./assets/fonts/static/MarkaziText-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Markazi-regular';
+    src: url(./assets/fonts/static/MarkaziText-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Markazi-Bold';
+    src: url(./assets/fonts/static/MarkaziText-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Markazi-semiBold';
+    src: url(./assets/fonts/static/MarkaziText-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Karla-medium';
+    src: url(./assets/fonts/Karla/Karla-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Karla-regular';
+    src: url(./assets/fonts/Karla/Karla-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Karla-Bold';
+    src: url(./assets/fonts/Karla/Karla-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Karla-extraBold';
+    src: url(./assets/fonts/Karla/Karla-ExtraBold.ttf) format('truetype');
+}
+
+.title {
+    background-color: #495E57;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+}
+
+.food-img{
+    margin: 20px;
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.little-lemon{
+    font-family: Markazi-medim,sans-serif;
+    font-size: 64pt;
+    color: #f4CE14;
+}
+
+.loc {
+    font-family: Markazi-regular;
+    font-size: 40pt;
+    color: #EDEFEE;
+}
+
+.desc{
+    font-family: Karla-regular;
+    color: #EDEFEE;
+}
+
+.reserve{
+    background-color: #f4CE14;
+    font-family: Karla-medium;
+    font-size: 18pt;
+    color: black;
+    border: 1px solid #f4CE14;
+    border-radius: 10%;
+}
